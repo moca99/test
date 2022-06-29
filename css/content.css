@@ -1,0 +1,369 @@
+
+/*--------------------
+sub-Content
+----------------------*/
+.mT0  {margin-top:0!important} 
+.mT10 {margin-top: 10px}
+.mT20 {margin-top: 20px}
+.mT30 {margin-top: 30px}
+.mT40 {margin-top: 40px}
+.mT50 {margin-top: 50px}
+.mR10 {margin-right:10px}
+.mR20 {margin-right:20px}
+.mL20 {margin-left:20px}
+.mL50 {margin-left:50px}
+.mB10 {margin-bottom: 10px}
+.mB20 {margin-bottom: 20px}
+
+.txt-right   {text-align: right!important}
+.txt-center  {text-align: center!important}
+.txt-left    {text-align: left!important}
+.bold        {font-weight: 500!important}
+.normal      {font-weight: 400}
+.red         {color:#c21b3f!important}
+.blue        {color:#1769c5!important}
+.gray        {color:#777}
+.black       {color:#000!important}
+.orange      {color:#f15f26;}
+.txt13       {font-size:13px;}
+.f-right     {float:right!important; }
+.f-left      {float:left!important; }
+.block       {display:block; }
+.inblock     {display:inline-block; }
+.w90         {width:90%}
+.w100        {width:100%}
+.a-right     {float:right; display: inline-block;} 
+.txt-line a  {text-decoration: underline!important}
+
+.farm-content h2 { margin-bottom: 40px!important; color: #222; font-size: 26px}
+.farm-content {box-sizing: border-box}
+
+
+
+
+
+.main-intro {width: 1100px;  margin: 0 auto; margin-top: 50px;min-height: 600px;}
+.main-intro li{display: inline-block; vertical-align: top; }
+.main-intro li.m-left { background:url('../images/main.png') no-repeat left top; background-size: 580px; width: 620px; padding: 220px 200px 0 200px; color: #D1D9DC;  text-align: center; line-height: 20px; font-size: 14px; height: 600px}
+.main-intro li.m-left span {display: block;  line-height: 50px; font-size: 17px; color: #fff}
+.main-intro li.m-right  {width: 460px; height: auto; margin-top: 30px}
+.m-info { padding-right: 50px; line-height: 22px; display: block}
+.m-info span{font-size: 30px; line-height: 70px; display: block; color: #222; font-weight: 500}
+
+.title-notie {font-weight: 500; font-size: 17px;margin-top: 50px; margin-bottom: 10px; color: #222}
+.main-notice li{line-height: 25px; padding-left: 20px;width: 100%}
+.main-notice li:before {content: "·"; padding-right: 5px; font-weight: 500; font-size: 18px; padding-top: 3px; opacity: 0.7}
+.main-notice li span {text-align: right; float: right; width: 100px; color: #888; font-size: 13px}
+.main-notice li a:hover {color:#1E6EC6 }
+.title-notie span {font-size: 12px; font-weight: 400; float: right}
+
+.main-customer {margin-top: 50px}
+.main-customer li {border: 1px solid #B5CDEF; width: 180px; height: 60px; text-align: center; display: inline-block; margin-right: 10px; border-radius: 6px; padding-top: 16px; font-size: 17px}
+.main-customer li:first-child {background:url('../images/icon_m1.png') no-repeat left 45px top 15px; background-size: 30px; padding-left: 40px}
+.main-customer li:last-child {background:url('../images/icon_m2.png') no-repeat left 35px top 15px; background-size: 28px; padding-left: 35px}
+.main-customer li a:hover {color:#1E6EC6 }
+
+.board-search {float:right; display: block; margin-bottom: 20px}
+
+
+.board-list-1 table		{width:100%;  border: 1px solid #DFE1E1;border-top:1px solid #000; min-width: 600px}
+.board-list-1 thead th	{padding:12px; color:#222;background-color:#f5f6fa;text-align:center;border-bottom:1px solid #DFE1E1; font-weight:400;}
+.board-list-1 tbody th	{padding:12px; border-bottom:1px solid #DFE1E1;text-align:center; }
+.board-list-1 tbody td	{padding:12px; border-bottom:1px solid #DFE1E1;text-align:center;  }
+.board-list-1 tbody td.title {text-align: left; }	
+.board-list-1 tbody td.title a:hover {text-decoration: underline; color: #1D4B8F}
+
+
+
+.board-view table		{width:100%; border: 1px solid #DFE1E1;border-top:1px solid #000;}
+.board-view tbody th	{padding:12px 20px;  color:#222; background-color:#f5f6fa;text-align:center;border-bottom:1px solid #DFE1E1; font-weight:400; }
+.board-view tbody th.title {font-size: 20px; padding:20px 20px; }
+.board-view tbody th.date {font-size: 15px; color: #666; text-align: right}
+.board-view tbody td	{padding:12px 20px; border-bottom:1px solid #DFE1E1;text-align:left;  }
+.board-view tbody td.view   {padding: 20px; vertical-align: top; height: 200px!important}
+.board-view tbody td.answer {padding: 20px 40px; vertical-align: top;}
+.board-view tbody td.answer:before {content:"\F368" ; font:normal normal normal 18px/1 "Material Design Icons"; padding-right: 10px}
+.board-view tbody td.answer textarea {min-height: 100px; padding: 15px; margin-top: 10px}
+
+
+.listnum-area {width: 100%;margin-top:30px; }
+.listnum-area li {display: inline-block; margin: 0 }
+.listnum-area li:first-child {width: calc(100% - 135px)}
+.listnum-area li:last-child {text-align: right;  width: 130px; }
+
+
+/* 페이지넘버 */
+.page_num{margin-bottom: 10px;  text-align:center; font-size:0;color:#333;}
+.page_num li{display:inline-block;}
+.page_num a{font-size: 14px; margin-left:-1px; display:inline-block;*zoom:1;height:35px;line-height:35px;background:#fff;width:35px; border:1px solid #ddd; vertical-align: top}
+.page_num a:hover		{background:#ddd; color:#000}
+.page_num a.current		{background:#000;border:1px solid #000; color:#fff;}
+.page_num .inner		{display:inline;*zoom:1;}
+
+
+.tooltip{position:absolute;z-index:1070;display:block;margin:0;line-height:1.5;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;letter-spacing:normal;word-break:normal;word-spacing:normal;white-space:normal;line-break:auto;font-size:0.76563rem;word-wrap:break-word;opacity:0; background: #000}
+
+
+.course_intro {border-radius: 20px; border:10px solid #EDF2F9; width: 900px; padding: 80px 40px 80px 450px; font-size: 16px; line-height: 30px; background:url('../images/course_01.png') no-repeat left 80px top 80px; background-size: 300px; margin: 0 auto; min-height: 400px; letter-spacing:-0.5px}
+.course_intro button {margin-top: 30px!important; font-size: 18px!important; }
+.course_intro span {font-weight: 500; color: #233E5F}
+
+.course-search {text-align: center; margin-top: 70px}
+.course-search input {width: 30%; height: 45px; border-radius: 0!important; border: 1px solid #BCC2CB}
+.course-search button {height:45px;border-radius: 0; margin-left: -7px; width: 100px} 
+.course-search input.input-type1:focus {border-color: #4F5B67;box-shadow: 0 0 0 0} 
+
+
+
+
+.tabmenu {width: 100%; margin: 0; font-size: 0}
+.tabmenu li {margin-left:-1px;margin-bottom:-1px; display:inline-block; border: 1px solid #DFE6E9;width: calc(100% / 2);  background: #FAFAFA; }
+.tabmenu li a{display: block; color: #727B7E; font-size: 15px; padding: 15px 20px;vertical-align: top;}
+.tabmenu li a:hover{color: #233E5F;  background: #F2F3F4; font-weight: }
+.tabmenu li a.active{color: #fff;  background: #0E2549;}
+
+
+.board-list-2 table		{width:100%;  border: 1px solid #DFE1E1;border-top:1px solid #000; min-width: 500px}
+.board-list-2 tbody td	{padding:15px 10px; border-bottom:1px solid #DFE1E1;text-align:left;  }
+.board-list-2 tbody td.num {font-size:20px; color: #999;text-align:center;   }	
+.board-list-2 tbody td.title a {display: block;  line-height: 30px;color: #666; text-align: left; font-size: 14px; padding-bottom: 10px}
+.board-list-2 tbody td.title a span{color: #222; font-size: 17px; display: block; }	
+.board-list-2 tbody td.title a:hover   { color: #1D4B8F;}
+.board-list-2 tbody td.title a span:hover { color: #1D4B8F; text-decoration: underline}
+.board-list-2 .btn-resiez button {margin-right: 20px!important}  
+
+
+
+
+
+.board-list-3 table		{width:100%;  border: 1px solid #DFE1E1;border-top:1px solid #000;}
+.board-list-3 thead th	{padding:5px; color:#222;background-color:#f5f6fa;text-align:center;border-bottom:1px solid #DFE1E1; font-weight:400;}
+.board-list-3 tbody th	{padding:5px; border-bottom:1px solid #DFE1E1;text-align:center; }
+.board-list-3 tbody td	{padding:5px; border-bottom:1px solid #DFE1E1;text-align:center;  }
+
+.sch-all {width: 100%; margin: 0 auto; text-align: center}
+.sch-intro {border-radius: 10px; border:10px solid #EDF2F9; width: 500px; padding-bottom: 30px; display: inline-block; margin: 0 10px; text-align: left; vertical-align: top}
+.sch-intro h3.sch-title {height: 180px; padding: 80px 0 0 40px; font-size: 23px; color: #222}
+.sch-intro h3.sch-title span {font-size: 26px; line-height: 50px}
+.sch-intro h3.sch-title.bg1 {background:#79DFE5 url('../images/daily_01.png') no-repeat right 20px top 20px; background-size:180px;}
+.sch-intro h3.sch-title.bg2 {background:#91BBED url('../images/daily_02.png') no-repeat right 20px top 35px; background-size:160px;}
+.sch-intro h4 {font-weight: 500; font-size: 20px; color:#285AA1; padding: 30px 20px 0 20px; display: block; padding-left: 40px;letter-spacing: -0.5px}
+.sch-intro dl {padding: 0 40px 20px 40px; }
+.sch-intro dl dt {color: #222; font-size: 16px; font-weight: 500;padding-top: 10px}
+.sch-intro dl dd {line-height: 22px; color: #555; padding-left:23px}
+.sch-intro dl i {padding-right: 8px; color:#61737D; font-size: 15px}
+.sch-intro button {padding: 0 17px!important}
+
+
+.course-detail h2 {font-weight: 500; font-size: 16px; display: block; color: #1D4B8F;margin-bottom: 10px; padding-top: 10px}
+.course-detail h2:before {content:"\F4DB" ; font:normal normal normal 18px/1 "Material Design Icons"; padding-right: 6px } 
+.course-detail p {font-size: 15px; padding-left:23px; padding-bottom:10px; border-bottom: 1px solid #ccc; border-bottom-style: dotted}
+
+
+.data-list table	{width:100%; min-width: 600px; font-size: 14px;border-top:1px solid #000;}
+.data-list thead th	{padding:7px; color:#222;background-color:#f5f6fa;text-align:center;font-weight:400; border:1px solid #DFE1E1; }
+.data-list tbody th	{padding:7px; border:1px solid #DFE1E1;text-align:center; }
+.data-list tbody td	{padding:7px; border:1px solid #DFE1E1;text-align:center; vertical-align: top }
+.data-list tbody td label.control-radio {margin-right: 15px}
+.data-list tbody td label.control-radio:last-child {margin-right: 0px} 
+.data-list tbody td label.control-checkbox {margin-left:10px;}
+.data-list tbody td i.txt-20{font-size: 20px}
+.modal-body .data-list table { min-width: auto; }
+
+
+
+.admin-area  {width:100%; display:block; margin-top: 30px}
+.admin-area li:first-child {float: left}
+.admin-area li:last-child {float: right}
+
+
+.tabmenu2 {width: 100%; margin: 0; font-size: 0}
+.tabmenu2 li {margin-left:-1px;margin-bottom:-1px; display:inline-block; border: 1px solid #DFE6E9;width: 150px;  background: #FAFAFA; }
+.tabmenu2 li a{display: block;  font-size: 15px; height: 45px; line-height: 45px; text-align: center}
+.tabmenu2 li a:hover{color: #233E5F;  background: #F2F3F4; font-weight: }
+.tabmenu2 li a.active{color: #fff;  background: #0E2549;}
+
+
+.login {margin: 0 auto; text-align: center; padding-top: 100px; margin-top: -30px}
+.login-in  {width: 70%; display: block; margin: 0 auto; margin-top:30px; margin-bottom: 20px;text-align: left}
+.login-in li {margin-bottom: 10px; }
+.login-in li input {width:100% ; height: 45px; font-size: 18px}
+.login-in li label {font-size: 14px; color: #727882; }
+.login-in li button {width: 100%; margin-top: 10px; height: 50px; font-size: 18px}
+.login-close {text-align: right; padding-right:10px!important; padding-top:10px!important; opacity: 1!important;font-size: 26px!important;}
+.login.bg1 { background:url('../images/login.png')no-repeat center top; background-size: 80px}
+.login.bg2 { background:url('../images/join.png')no-repeat center top; background-size:60px}
+
+.join-in  {width: 100%; display: block; margin: 0 auto;  margin-bottom: 20px;text-align: left}
+.join-in li {font-size: 14px;padding-bottom: 5px }
+.join-in li input {width: 220px; font-size: 14px }
+.join-in li textarea {font-size: 13px; padding: 10px; min-height: 150px; }
+.join-in li label {width: 90px; display: inline-block}
+.join-in li .joininfo {font-size: 11px; display: block; padding-left:90px; letter-spacing: -0.5px}
+.join-in li label.control  {width: 100%}
+
+
+
+
+/*--------------------
+모달
+----------------------*/
+.modal{overflow: auto; width:100%; overflow:scroll;-webkit-overflow-scrolling:touch; display: block}
+.modal-content h1 {font-size:18px; color:#222; padding-top: 20px; padding-left: 20px }
+.modal-header {border-top-left-radius:5px ; border-top-right-radius:5px;background: #f5f6fa;padding: 0!important}
+.modal-header .close{ opacity: 1; margin:0!important}
+.modal-header .close i{font-size: 26px; color:#222;}
+.modal button:focus{ outline: none;}
+.modal input:focus{ outline: none;}
+.modal-content {border:0; border-radius: 5px}
+
+.modal-body {padding:30px!important}
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------
+해상도별
+----------------------*/
+ @media (max-width:1440px) {
+  .btn-resiez button, .btn-resiez span {display: block;  margin: 0 auto; margin-right: 0!important;width: 150px; margin-bottom: 5px}
+  .board-list-2 .btn-resiez button {margin-right: 0px!important}  
+  .sch-intro {width: 47%; margin: 0 5px; }
+  .sch-intro dl {padding: 0 20px 20px 20px; }
+  .sch-intro dl dd {font-size: 14px}
+  .sch-intro h4  {padding-left: 20px;} 
+
+  .main-intro {width: 900px; }
+  .main-intro li.m-left {background-size: 450px; width: 480px; padding: 160px 140px 0 140px; font-size: 13px;  line-height: 18px}
+  .main-intro li.m-left span {font-size: 15px;}
+  .main-intro li.m-right  {width: 400px; }
+
+  .m-info { padding-right: 0px; font-size: 14px}
+  .title-notie {margin-top: 30px; }
+
+  .main-customer {margin-top: 30px}
+  .main-customer li {width: 160px; }
+  .main-customer li:first-child {background:url('../images/icon_m1.png') no-repeat left 35px top 15px; background-size: 30px; padding-left: 40px}
+  .main-customer li:last-child {background:url('../images/icon_m2.png') no-repeat left 25px top 15px; background-size: 28px; padding-left: 35px}
+  
+ 
+   
+   
+   
+   
+   
+}
+
+
+
+ @media (max-width:1280px) {
+  .course_intro {width: 90%; padding: 220px 40px 60px 40px;  background:url('../images/course_01.png') no-repeat center top 50px; background-size: 250px; min-height: auto; text-align: center}
+  .tabmenu li {width:100%}
+  .tabmenu li a{padding: 8px 20px;}
+  .board-list-2 tbody td.title a {line-height: 22px;}
+  .course-search input {width: 50%;}
+   
+   .sch-intro {width: 80%; margin-bottom: 20px; }
+   .sch-intro dl {padding: 0 40px 40px 40px; }
+   .sch-intro dl dd {font-size: 15px}
+   .sch-intro h4  {padding-left: 40px;} 
+   .data-list    {overflow: auto; width:100%; overflow:scroll;-webkit-overflow-scrolling:touch; }  
+   .data-list tbody td label.control-radio {margin-right: 0; margin-left: 0} 
+   
+    .main-intro {width: 100%; padding: 0 100px 0 100px }
+    .main-intro li.m-left {background-size: 500px; width: 520px; padding: 160px 160px 0 160px;  height: 500px }
+    .main-intro li.m-right  {width: 100%; }
+
+    .m-info { padding-right: 0px; font-size: 14px}
+    .title-notie {margin-top: 30px; }
+
+    .main-customer {margin-top: 30px}
+    .main-customer li {width: 160px; }
+    .main-customer li:first-child {background:url('../images/icon_m1.png') no-repeat left 35px top 15px; background-size: 30px; padding-left: 40px}
+    .main-customer li:last-child {background:url('../images/icon_m2.png') no-repeat left 25px top 15px; background-size: 28px; padding-left: 35px}
+   
+  
+}
+
+ @media (max-width: 1024px) {
+  .admin-btn li:first-child {float:none; margin-top: 20px; margin-bottom: 20px; text-align: center; }
+  .admin-btn li:last-child {float: none; text-align: center}
+  .main-intro { padding: 0 ; margin-top: 0}
+.main-intro li.m-left {background-size: 250px; width: 100%; padding: 250px 0 0 0;  height: 340px;  color: #333; text-align: left }
+.main-intro li.m-left span { line-height: 30px; color: #222; font-weight: 500; font-size: 16px}
+.main-notice li {padding-bottom: 5px; line-height: 20px; font-size: 15px}
+.main-notice li span {text-align: left; float: none; width: 100%;display: block; padding-left: 10px; font-size: 14px}
+}
+
+
+
+
+ @media (max-width: 800px) {
+  .farm-content {letter-spacing: -0.2px}
+  .board-list-1, .board-list-2, .board-list-3  {overflow: auto; width:100%; overflow:scroll;-webkit-overflow-scrolling:touch; }       
+  .board-view tbody th.title {font-size:18px; padding:20px 10px; text-align: left}
+  .board-view tbody th.date {font-size: 14px; text-align: right;padding:20px 10px;}
+  .board-view tbody th	{padding:12px 10px; }
+  .board-view tbody td	{padding:12px 10px; }
+
+
+  .listnum-area li {display: block; }
+  .listnum-area li:first-child {width: calc(100% - 0px)}
+  .listnum-area li:last-child {text-align: center;  width: 100%; margin-top: 20px}  
+  .board-search select {min-width: 80px}
+   
+  .board-view select {width: 100%}
+  .board-view tbody td.answer {padding: 20px; vertical-align: top;}
+   
+  .sch-intro {width: 100%; margin-bottom: 20px; }
+   
+  .board-list-2 td em {display: block}
+  .board-list-2 td.title button.blue-fill {display: block;margin-bottom: 5px;padding-right: 23px; padding-left: 23px}
+
+  
+}
+
+
+@media (max-width: 768px) {
+.board-search {float:left;}  
+.page_num {display: block; width: 100%}
+
+  
+.layer-popup .pop-content {padding:20px}
+.layer-popup .layer-info {margin: 20px 0;}   
+    
+.course_intro {padding: 220px 20px 60px 20px; border-radius:10px; border:5px solid #EDF2F9; width: 100%; line-height: 24px; }
+.modal-body {padding:10px 20px!important}
+  
+
+.join-in  {width: 90%; }
+.join-in li input {width:100%}
+.join-in li label {width: 100%; display:block}
+.join-in li .joininfo {font-size: 13px;padding-left:0;}
+  
+.sch-intro h3.sch-title { padding: 50px 0 0 20px; font-size: 20px;height: 140px }
+.sch-intro h3.sch-title span {font-size: 22px; line-height: 40px}
+.sch-intro h3.sch-title.bg1 {background-size:120px;}
+.sch-intro h3.sch-title.bg2 {background-size:120px;}
+.sch-intro h4 {font-size: 18px;  padding: 20px 20px 0 20px; padding-left: 20px;}
+.sch-intro dl {padding: 0 40px 20px 20px; }
+.sch-intro button {padding: 0 10px!important}
+  
+ 
+  
+
+}
+
+
+
+
+
+
+
