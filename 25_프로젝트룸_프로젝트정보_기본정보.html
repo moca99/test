@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>ADM Korea 매출실적관리시스템</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+	<meta name="description" content="ADM Korea 매출실적관리시스템" />
+	<link href="./../../../css/common.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="adm-wrap">
+		<header>
+			<h1><img src="../../../images/adm_logo.png" alt="ADM Korea 매출실적관리시스템"></h1>
+			<ul class="topmenu">
+				<li><a href="#" class="m1 active">프로젝트</a></li> <!-- 현재메뉴상태 active  -->
+				<li><a href="#" class="m2">영업관리</a></li>
+				<li><a href="#" class="m3">인사관리</a></li>
+				<li><a href="#" class="m4">시스템관리</a></li>
+			</ul>
+		</header>
+
+		<div class="adm-lnb">
+			<ul class="myinfo">
+				<li>홍길동님</li>
+				<li class="out"><a href="#">로그아웃</a></li>
+				<li class="alarm">승인요청이 있습니다</li>
+			</ul>
+			<h2>프로젝트 명</h2>
+
+			<ul id="accordion" class="accordion">
+				<li>
+					<div class="link">
+						<a href="#">
+							<i class="iconfontline">screen_search_desktop</i>
+							공지사항
+							<i class="iconfont arrow">arrow_forward_ios</i>
+						</a>
+					</div>
+				</li>
+				<li class="open">
+					<!-- 현재메뉴상태 open  -->
+					<div class="link">
+						<a href="#" class="active">
+							<!-- 현재메뉴상태 active  -->
+							<i class="iconfontline">fact_check</i>
+							프로젝트 정보
+							<i class="iconfont more">expand_more</i>
+						</a>
+					</div>
+					<ul class="submenu">
+						<li><a href="#" class="active">기본정보</a></li>
+						<li><a href="#">계약정보</a></li>
+						<li><a href="#">상태정보</a></li>
+						<li><a href="#">실적정보</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="link">
+						<a href="#">
+							<i class="iconfontline">fact_check</i>
+							프로젝트 요청
+							<i class="iconfont more">expand_more</i>
+						</a>
+					</div>
+					<ul class="submenu">
+						<li><a href="#">인력배정</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="link">
+						<a href="#">
+							<i class="iconfontline">fact_check</i>
+							프로젝트 로그
+							<i class="iconfont arrow">arrow_forward_ios</i>
+						</a>
+					</div>
+				</li>
+			</ul>
+
+		</div>
+
+		<!--- 컨텐츠영역 시작 -->
+		<div class="adm-content">
+		
+			<h3>기본정보</h3>
+			<div class="board-type2">
+				<table>
+					<colgroup>
+						<col style="width:15%;" />
+						<col />
+						<col style="width:15%;" />
+						<col style="width:30%;" />
+
+					</colgroup>
+					<tbody>
+						<tr>
+							<th>프로젝트 명</th>
+							<td>당뇨복합제 (3상 30처 250명)</td>
+							<th>프로젝트 코드</th>
+							<td>1234</td>
+						</tr>
+						<tr>
+							<th>프로젝트 기간</th>
+							<td>2021-01-01 ~ 2021-12-01</td>
+							<th>프로젝트 PM</th>
+							<td>text</td>
+						</tr>
+						<tr>
+							<th>의뢰사</th>
+							<td>text</td>
+							<th>의뢰사 담당자</th>
+							<td>text</td>
+						</tr>
+						<tr>
+							<th>계약금액</th>
+							<td>text</td>
+							<th>계약일</th>
+							<td>text</td>
+						</tr>
+						<tr>
+							<th>영업정보</th>
+							<td class="link"><a href="#" class="underline">당뇨3상</a></td>
+							<th>계약정보(CID)</th>
+							<td class="link"><a href="#" class="underline">ADMRFP 21-001</a></td>
+						</tr>
+						<tr>
+							<th>Protocal No</th>
+							<td>text</td>
+							<th>Product Name</th>
+							<td>text</td>
+						</tr>
+						<tr>
+							<th>메모</th>
+							<td colspan="3">text</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="align-center mT20">
+				<button type="button" class="btn-blue">수정</button>
+			</div>
+
+
+		</div>
+		<!--- //컨텐츠영역 끝-->
+
+	</div>
+	<!--- //adm-wrap  -->
+
+	<script type="text/javascript" src="../../../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="../../../js/tui/tui-date-picker.js"></script>
+
+	<script type="text/javascript" src="../../../js/lnb.js"></script>
+	<script type="text/javascript" src="../../../js/content.js"></script>
+	<script type="text/javascript" src="../../../js/component.js"></script>
+
+
+</body>
+
+</html>
